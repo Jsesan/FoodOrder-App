@@ -3,12 +3,13 @@ import React, { Fragment }  from "react";
 import empanadasImg from "../../assets/headerImg.png";
 
 import classes from './Header.module.css';
+import HeaderCartButton from "./HeaderCartButton";
 const Header = props => {
     return (
         <Fragment>
             <header className={classes.header}>
-                <h1>Raquel pizza y empanadas</h1>
-                <button>Cart</button>
+                <h1>Pizzas y Empanadas "Raquel"</h1>
+                <HeaderCartButton/>
             </header>
             <div className={classes['main-image']}>
                 <img src={empanadasImg} />
