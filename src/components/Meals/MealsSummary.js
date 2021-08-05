@@ -5,12 +5,11 @@ const MealsSummary = () => {
     <section className={classes.summary}>
       <h2>Las mejoras pizzas y empanadas estan en Paso del rey</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals
-        and enjoy a delicious lunch or dinner at home.
+        Elegi cualquier comida de la lista que esta debajo, tenemos las mejores pizza y empanadas del conurbano 
+        bonarense
       </p>
       <p>
-        All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+        Todo esta realizado por las manos de Raquel Raies, una viejita simpatica y muy laburadora.
       </p>
     </section>
   );
